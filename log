@@ -88,3 +88,16 @@ treemap.c:129:38: error: expected ')' before 'aux'
                                       ^~~
 Compilation failed
 d0c73bd
+sá., 23 de abr. de 2022 19:14:18: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function 'nextTreeMap':
+treemap.c:129:35: error: expected expression before 'int'
+                 printf("%d\n", *(*int) aux->parent->pair->key);
+                                   ^~~
+treemap.c:129:40: error: expected ')' before 'aux'
+                 printf("%d\n", *(*int) aux->parent->pair->key);
+                                        ^~~
+Compilation failed
+dc0fc10
