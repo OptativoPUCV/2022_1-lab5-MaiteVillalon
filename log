@@ -16,3 +16,14 @@ sá., 23 de abr. de 2022 18:57:01:
  tests:  12|5
 total_score: 15/70
 35a35b3
+sá., 23 de abr. de 2022 18:58:09: 
+ treemap.c | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+In file included from test.c:4:0:
+treemap.c: In function 'nextTreeMap':
+treemap.c:118:28: error: 'key' undeclared (first use in this function)
+       if (tree->lower_than(key, aux->pair->key) == 1)
+                            ^~~
+treemap.c:118:28: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+dca7201
