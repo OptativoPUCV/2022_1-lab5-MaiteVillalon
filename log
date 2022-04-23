@@ -64,3 +64,14 @@ sá., 23 de abr. de 2022 19:08:00:
  tests:  14|5
 total_score: 20/70
 2d3e00c
+sá., 23 de abr. de 2022 19:11:58: 
+ treemap.c | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+In file included from test.c:4:0:
+treemap.c: In function 'nextTreeMap':
+treemap.c:129:26: error: format '%d' expects argument of type 'int', but argument 2 has type 'void *' [-Werror=format=]
+                 printf("%d\n", aux->parent->pair->key);
+                          ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+a0cc7f4
