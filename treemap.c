@@ -96,7 +96,6 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
         return aux->pair;
       }
     }
-      return NULL;
     return NULL;
 }
 
@@ -119,6 +118,8 @@ Pair * nextTreeMap(TreeMap * tree) {
         aux = aux->right;
         tree->current = aux;
        return minimum(aux)->pair;
-    }   
+
+    }  
+    else 
     return NULL;
 }
