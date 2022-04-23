@@ -116,7 +116,7 @@ Pair * nextTreeMap(TreeMap * tree) {
     
     if (aux->right != NULL)
     {
-       return minimum(aux);
+       return minimum(aux)->pair;
     }
     return NULL;
 }
