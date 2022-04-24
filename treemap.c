@@ -126,27 +126,25 @@ Pair * nextTreeMap(TreeMap * tree) {
      
     else if (aux->right == NULL)
     {
-        while (aux != NULL)
+        while (aux->parent != NULL)
         {
-            if ( aux->parent != NULL)
+
+            if (tree->lower_than(tree->current->pair->key, aux->parent->pair->key) == 1)
             {
-                if (tree->lower_than(tree->current->pair->key, aux->parent->pair->key) == 1)
-                {
-                    aux = aux->parent;
-                    tree->current = aux;
-                    return aux->pair;
-                }
-            
-                else if ((tree->lower_than(aux->parent->pair->key,tree->current->pair->key) == 1))
-                {
-                    aux = aux->parent;
-                }
-                else if (is_equal(tree,aux->pair->key, aux->parent->pair->key ))
-                {
-                    aux= aux->parent;
-                }
+                aux = aux->parent;
+                tree->current = aux;
+                return tree-current->pair;
             }
-            else return NULL;
+            
+            else if ((tree->lower_than(aux->parent->pair->key,tree->current->pair->key) == 1))
+            {
+                aux = aux->parent;
+            }
+            else if (is_equal(tree,aux->pair->key, aux->parent->pair->key ))
+            {
+                aux= aux->parent;
+            }
+            
             
         }
     }
