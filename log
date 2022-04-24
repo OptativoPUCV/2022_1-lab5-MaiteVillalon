@@ -672,3 +672,16 @@ do., 24 de abr. de 2022 19:35:24:
  tests:  19|3
 total_score: 35/70
 ddd315b
+do., 24 de abr. de 2022 19:38:58: 
+ treemap.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function 'nextTreeMap':
+treemap.c:163:53: error: expected ')' before ';' token
+         tree->current = minimum(tree->current->right;
+                                                     ^
+treemap.c:165:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation failed
+52cb601
