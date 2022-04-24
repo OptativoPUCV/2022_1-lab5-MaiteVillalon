@@ -185,3 +185,13 @@ treemap.c:130:58: error: expected statement before ')' token
                                                           ^
 Compilation failed
 0d56eb2
+do., 24 de abr. de 2022  2:08:31: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function 'upperBound':
+treemap.c:130:58: error: expected statement before ')' token
+                     if  (tree->lower_than(aux , ub) == 1))
+                                                          ^
+Compilation failed
+3c619a7
