@@ -163,3 +163,9 @@ treemap.c:105:15: error: unused variable 'ub' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 4bae1b5
+do., 24 de abr. de 2022  1:44:21: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  14|5
+total_score: 20/70
+db546d6
