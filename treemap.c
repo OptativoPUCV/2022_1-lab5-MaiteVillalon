@@ -125,15 +125,13 @@ Pair * nextTreeMap(TreeMap * tree) {
      
     else if (aux->right == NULL)
     {
-        printf("%d\n", *(int*) aux->pair->key);
-        printf("%d\n", *(int*) aux->parent->pair->key);
         while (aux->parent != NULL)
         {
             if (tree->lower_than(aux->pair->key, aux->parent->pair->key) == 1)
             {
-                aux = aux->parent;
-                tree->current = aux;
-                return aux->pair;
+                //aux = aux->parent;
+                tree->current = aux->parent;
+                return aux->parent->pair;
             }
             else if ((tree->lower_than(aux->parent->pair->key, aux->pair->key) == 1) || (aux->parent->pair->key == aux->pair->key))
             {
