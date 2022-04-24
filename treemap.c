@@ -180,9 +180,9 @@ Pair * nextTreeMap(TreeMap * tree) {
             {
                 aux = aux->parent;
             }
-            else if ((is_equal(tree,aux->pair->key, aux->parent->pair->key ) == 1))
+            else 
             {
-                aux= aux->parent;
+                return aux->pair;
             }
             //else if ((is_equal(tree,tree->current->pair->key, tree->root->pair->key ))) return tree->current->pair;
             
@@ -192,6 +192,9 @@ Pair * nextTreeMap(TreeMap * tree) {
         
         
     }
-    if ((is_equal(tree,tree->current->pair->key, tree->root->pair->key ))) return tree->current->pair;
-    else return NULL;
+    if ((is_equal(tree,tree->current->pair->key, tree->root->pair->key ))) 
+    {
+        return tree->current->pair;
+    }
+    return NULL;
 }
