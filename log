@@ -632,3 +632,9 @@ treemap.c:191:9: error: 'else' without a previous 'if'
          ^~~~
 Compilation failed
 592169b
+do., 24 de abr. de 2022 19:23:27: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  19|3
+total_score: 35/70
+6411064
