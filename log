@@ -622,3 +622,13 @@ do., 24 de abr. de 2022 19:18:12:
  tests:  19|3
 total_score: 35/70
 50ffe09
+do., 24 de abr. de 2022 19:23:05: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function 'nextTreeMap':
+treemap.c:191:9: error: 'else' without a previous 'if'
+         else if ((is_equal(tree,tree->current->pair->key, tree->root->pair->key ))) return tree->current->pair;
+         ^~~~
+Compilation failed
+592169b
