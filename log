@@ -442,3 +442,9 @@ treemap.c:41:31: error: expected ',' or ';' before 'malloc'
                                ^~~~~~
 Compilation failed
 a5b339b
+do., 24 de abr. de 2022 16:18:44: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  17|4
+total_score: 25/70
+311df8d
