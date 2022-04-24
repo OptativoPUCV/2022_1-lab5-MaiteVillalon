@@ -397,3 +397,9 @@ treemap.c:146:9: error: expected expression before '}' token
          ^
 Compilation failed
 f2b20b7
+do., 24 de abr. de 2022 16:10:23: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  14|5
+total_score: 20/70
+7f3cda2

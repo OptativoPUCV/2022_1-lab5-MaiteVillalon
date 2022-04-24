@@ -138,7 +138,7 @@ Pair * nextTreeMap(TreeMap * tree) {
             {
                 aux = aux->parent;
             }
-            else if ((is_equal(tree,aux->pair->key, aux->parent->pair->key ) == 1)
+            else if ((is_equal(tree,aux->pair->key, aux->parent->pair->key ) == 1))
             {
                 aux= aux->parent;
             }
