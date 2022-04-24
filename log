@@ -703,3 +703,13 @@ do., 24 de abr. de 2022 19:44:15:
  tests:  22|2
 total_score: 45/70
 946a089
+do., 24 de abr. de 2022 19:45:31: 
+ treemap.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function 'nextTreeMap':
+treemap.c:163:9: error: expected ';' before 'tree'
+         tree->current = aux;
+         ^~~~
+Compilation failed
+970eaad
