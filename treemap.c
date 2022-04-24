@@ -129,14 +129,16 @@ Pair * nextTreeMap(TreeMap * tree) {
         {
             if (tree->lower_than(aux->pair->key, aux->parent->pair->key) == 1)
             {
-                //aux = aux->parent;
-                tree->current = aux->parent;
-                return aux->parent->pair;
+                aux = aux->parent;
+                tree->current = aux;
+                return aux->pair;
             }
-            else if ((tree->lower_than(aux->parent->pair->key, aux->pair->key) == 1) || (aux->parent->pair->key == aux->pair->key))
+            else return NULL;
+            /*else if ((tree->lower_than(aux->parent->pair->key, aux->pair->key) == 1) || (aux->parent->pair->key == aux->pair->key))
             {
                 aux = aux->parent;
             }
+            */
         }
     }
     return NULL;
