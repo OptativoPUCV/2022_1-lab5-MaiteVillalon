@@ -231,3 +231,13 @@ treemap.c:135:1: error: expected identifier or '(' before '}' token
  ^
 Compilation failed
 64c91ab
+do., 24 de abr. de 2022 14:00:34: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+C:\Users\MAITEV~1\AppData\Local\Temp\cc0fRbZs.o:test.c:(.text+0x107e): undefined reference to `upperBound'
+C:\Users\MAITEV~1\AppData\Local\Temp\cc0fRbZs.o:test.c:(.text+0x1135): undefined reference to `upperBound'
+C:\Users\MAITEV~1\AppData\Local\Temp\cc0fRbZs.o:test.c:(.text+0x1211): undefined reference to `upperBound'
+C:\Users\MAITEV~1\AppData\Local\Temp\cc0fRbZs.o:test.c:(.text+0x12ed): undefined reference to `upperBound'
+collect2.exe: error: ld returned 1 exit status
+Compilation failed
+c054462
