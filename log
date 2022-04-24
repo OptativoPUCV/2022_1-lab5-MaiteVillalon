@@ -579,3 +579,9 @@ treemap.c:76:22: error: 'new' undeclared (first use in this function)
                       ^~~
 Compilation failed
 46cc4f8
+do., 24 de abr. de 2022 19:00:14: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  17|4
+total_score: 25/70
+47303bd
