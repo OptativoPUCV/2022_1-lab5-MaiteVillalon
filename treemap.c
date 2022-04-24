@@ -100,40 +100,12 @@ Pair * searchTreeMap(TreeMap * tree, void* key) {
 }
 
 
-/*Pair * upperBound(TreeMap * tree, void* key) {
-    TreeNode *aux = tree->root;
-    TreeNode *ub = tree->root;
+Pair * upperBound(TreeMap * tree, void* key) {
 
-    if (aux->pair->key == key)
-    {
-        return aux->pair;
-    }
-    else
-    {
-        while (aux != NULL )
-        {
-            if ((tree->lower_than(key , aux->pair->key) == 1))
-            {
-                aux = aux->left;
-            }
-            else
-            {
-                aux = aux->right;
-
-                if  ((tree->lower_than(aux , ub) == 1))
-                {
-                    ub = aux;
-                }
-                
-                
-            }
-        }
-        return ub->pair;
-    }
 
     return NULL;
 }
-*/
+
 Pair * firstTreeMap(TreeMap * tree) {
     TreeNode * aux = tree->root;
     return (minimum(aux)->pair);

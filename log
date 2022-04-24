@@ -241,3 +241,8 @@ C:\Users\MAITEV~1\AppData\Local\Temp\cc0fRbZs.o:test.c:(.text+0x12ed): undefined
 collect2.exe: error: ld returned 1 exit status
 Compilation failed
 c054462
+do., 24 de abr. de 2022 14:01:28: 
+ treemap.c | 32 ++------------------------------
+ 1 file changed, 2 insertions(+), 30 deletions(-)
+ tests:  0|0
+482fcec
