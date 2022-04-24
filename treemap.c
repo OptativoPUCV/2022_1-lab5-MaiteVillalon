@@ -168,7 +168,8 @@ Pair * nextTreeMap(TreeMap * tree) {
         while (aux->parent != NULL)
         {
 
-            if (tree->lower_than(tree->current->pair->key, aux->parent->pair->key) == 1)
+            if (aux == NULL) return NULL;
+            else if (tree->lower_than(tree->current->pair->key, aux->parent->pair->key) == 1)
             {
                 aux = aux->parent;
                 tree->current = aux;
@@ -183,7 +184,7 @@ Pair * nextTreeMap(TreeMap * tree) {
             {
                 return aux->pair;
             }
-            if (aux == NULL) return NULL;
+            //if (aux == NULL) return NULL;
             //else if ((is_equal(tree,tree->current->pair->key, tree->root->pair->key ))) return tree->current->pair;
             
             
