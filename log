@@ -384,3 +384,16 @@ do., 24 de abr. de 2022 15:28:43:
  tests:  14|5
 total_score: 20/70
 f55d72d
+do., 24 de abr. de 2022 16:10:01: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function 'nextTreeMap':
+treemap.c:142:13: error: expected ')' before '{' token
+             {
+             ^
+treemap.c:146:9: error: expected expression before '}' token
+         }
+         ^
+Compilation failed
+f2b20b7
