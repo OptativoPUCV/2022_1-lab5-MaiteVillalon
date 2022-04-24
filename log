@@ -403,3 +403,29 @@ do., 24 de abr. de 2022 16:10:23:
  tests:  14|5
 total_score: 20/70
 7f3cda2
+do., 24 de abr. de 2022 16:15:38: 
+ treemap.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function 'createTreeMap':
+treemap.c:41:5: error: conversion to non-scalar type requested
+     TreeMap tree = (TreeMap)malloc(sizeof(TreeMap));
+     ^~~~~~~
+treemap.c:42:9: error: invalid type argument of '->' (have 'TreeMap {aka struct TreeMap}')
+     tree->root = NULL;
+         ^~
+treemap.c:43:9: error: invalid type argument of '->' (have 'TreeMap {aka struct TreeMap}')
+     tree->current = NULL;
+         ^~
+treemap.c:44:9: error: invalid type argument of '->' (have 'TreeMap {aka struct TreeMap}')
+     tree->lower_than = lower_than;
+         ^~
+treemap.c:45:12: error: incompatible types when returning type 'TreeMap {aka struct TreeMap}' but 'TreeMap * {aka struct TreeMap *}' was expected
+     return tree;
+            ^~~~
+treemap.c:47:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+5e668e8
