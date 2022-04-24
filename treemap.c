@@ -192,6 +192,6 @@ Pair * nextTreeMap(TreeMap * tree) {
         
         
     }
-    else if ((is_equal(tree,tree->current->pair->key, tree->root->pair->key ))) return tree->current->pair;
+    if ((is_equal(tree,tree->current->pair->key, tree->root->pair->key ))) return tree->current->pair;
     else return NULL;
 }
