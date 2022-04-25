@@ -812,3 +812,13 @@ do., 24 de abr. de 2022 20:46:14:
  tests:  28|1
 total_score: 65/70
 b3c74a0
+do., 24 de abr. de 2022 20:53:17: 
+ treemap.c | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+In file included from test.c:4:0:
+treemap.c: In function 'removeNode':
+treemap.c:160:5: error: 'else' without a previous 'if'
+     else
+     ^~~~
+Compilation failed
+9778b96
