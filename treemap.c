@@ -147,7 +147,7 @@ Pair * upperBound(TreeMap * tree, void* key)
 
     if (node == NULL) return NULL;
 
-    if (searchTreeMap(Tree, key) != NULL )
+    if (searchTreeMap(tree, key) != NULL )
     {
         return searchTreeMap(Tree, key);
     }
