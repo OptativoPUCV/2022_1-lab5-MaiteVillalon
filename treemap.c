@@ -149,7 +149,7 @@ Pair * upperBound(TreeMap * tree, void* key)
 
     if (searchTreeMap(tree, key) != NULL )
     {
-        return searchTreeMap(Tree, key);
+        return searchTreeMap(tree, key);
     }
     else
     {

@@ -756,3 +756,9 @@ treemap.c:152:30: error: 'Tree' undeclared (first use in this function)
 treemap.c:152:30: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 0dd438f
+do., 24 de abr. de 2022 20:01:23: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  22|2
+total_score: 45/70
+412c8dc
