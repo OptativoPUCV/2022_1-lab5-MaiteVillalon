@@ -734,3 +734,14 @@ treemap.c:165:13: error: expected ';' before '}' token
              ^
 Compilation failed
 188b28a
+do., 24 de abr. de 2022 20:00:39: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function 'upperBound':
+treemap.c:150:23: error: 'Tree' undeclared (first use in this function)
+     if (searchTreeMap(Tree, key) != NULL )
+                       ^~~~
+treemap.c:150:23: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+631740f
